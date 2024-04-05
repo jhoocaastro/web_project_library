@@ -324,7 +324,7 @@
 }
 
 .step {
-  flex-basis: 240px;
+  flex-basis: 220px;
   /* Adicione estilos */
 }
 
@@ -354,23 +354,23 @@
 
 .footer__columns {
   display: flex;
-  gap: 80px;
-}
-
-.footer__column:first-child {
-  flex: 1;
 }
 
 .footer__column_content_hours {
+  margin-left: auto;
 }
 
 .footer__column_content_social {
+  margin-left: 80px;
 }
 
 .footer__logo {
+  width: 58px;
+  height: 80px;
 }
 
 .footer__column-heading {
+  margin-bottom: 20px;
 }
 
 .footer__list {
@@ -384,15 +384,23 @@
 }
 
 .footer__list-item {
+  margin-bottom: 16px;
+}
+.footer__list-item:last-child {
+  margin-bottom: 0;
 }
 
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
-  margin-right: 10px;
+  width: 16px;
+  height: 16px;
 }
 
 .footer__copyright {
